@@ -1,0 +1,54 @@
+/** @format */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'MOSCOW2024';
+  src: url('./fonts/MOSCOW2024.otf');
+}
+
+body {
+  font-family: 'MOSCOW2024';
+  background: #202020;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+canvas {
+  margin-top: 5px;
+  border: solid 0.2em #fff;
+  height: 90vh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.control-board {
+  margin: 25px 0;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  width: 66px;
+  padding: 5px;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.statistic-item {
+  display: block;
+  border-bottom: solid 2px #413e3e;
+}
